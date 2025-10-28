@@ -10,4 +10,5 @@ jobs:
 run-on: ubuntu-latest
  steps:
       -name: hello-again
-        run: echo "hello again"
+        run: echo "hello again" 
+again
