@@ -1,0 +1,15 @@
+name: greeter
+on: [push]
+jobs:
+  greeting:
+  name: say hello job
+    runs-on: ubuntu-latest
+    steps:
+      -name: say-hello
+        run: echo "hello greeting job"
+   greetagain:
+    name: say hello job
+    run-on: ubuntu-latest
+    steps:
+      -name: hello-again
+        run: echo "hello again jobs" 
